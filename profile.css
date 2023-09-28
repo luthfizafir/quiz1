@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body{
+    background: #F9F9F9;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav{
+    text-decoration: none;
+    color: black;
+}
+.nav ul{
+    height: 58px;
+    display: flex;
+    padding: 8px;
+    list-style: none;
+    position: relative;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    margin-top: 61px;
+    background-color: #ececec;
+    border-radius: 20px;
+}
+.nav li a{
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.navbox{
+    display: block;
+    width: 630px;
+    height: 58px;
+    flex-shrink: 0;
+    background-color: #ececec;
+    margin-left: 28%;
+    border-radius: 20px;
+}
+
+.navbox2{
+    display: block;
+    width: 227px;
+    height: 227px;
+    margin-left: 60%;
+    margin-top: -18%;
+    border-radius: 24px;
+    
+}
+
+.navbox3{
+    display: block;
+    width: 191px;
+    height: 193px; 
+    border-radius: 24px;
+    margin-left: 60%;
+    margin-top: 10%;
+    filter: blur(50px);
+    z-index: -1;
+}
+
+.navbox4{
+    display: block;
+    width: 1118px;
+    height: 698px;
+    flex-shrink: 0;
+    background-color: #eaeaea;
+    margin-left: 11%;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+
+.frame{
+    display: block;
+    width: 227px;
+    height: 227px;
+    flex-shrink: 0;
+    background-color: #d9d9d9;
+    border-radius: 24px;
+    justify-content: flex-end;
+    z-index: 2;
+    margin-top: -80%;
+    
+}
+.pic{
+    position: absolute;
+    max-width: 175px;
+    max-height: 473px;
+    margin-top: -16.9%;
+    margin-left: 2%;
+}
